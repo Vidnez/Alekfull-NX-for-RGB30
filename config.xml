@@ -1,0 +1,30 @@
+<theme>
+    <formatVersion>4</formatVersion>
+
+    <include>./lang/en.xml</include>
+	<include lang="eu">./lang/en.xml</include>
+    <include lang="es">./lang/es.xml</include>
+    <include lang="mx">./lang/es.xml</include>
+
+<!--	
+	<include lang="de">./lang/de.xml</include>
+-->
+	
+	<include>./options/display/169.xml</include>
+    <include subset="vdelay" name="1" displayName="${delay1}">./options/videodelay/video_delay_1.xml</include>
+    <include subset="vdelay" name="2" displayName="${delay2}">./options/videodelay/video_delay_2.xml</include>
+    <include subset="vdelay" name="3" displayName="${delay3}">./options/videodelay/video_delay_3.xml</include>
+    <include subset="vdelay" name="0" displayName="${delay0}">./options/videodelay/video_delay_0.xml</include>
+    <include subset="vdelay" name="nv" displayName="${novideo}">./options/videodelay/no_video.xml</include>
+    
+
+    <include>./options/colorschemes/blue.xml</include>
+
+    <include>./options/logosets/color.xml</include>
+    <include>./options/helpicons/crystal.xml</include>
+	<include>./${ratset}/horizontal_details.xml</include>
+    <include>./options/background/Alekfull.xml</include>
+	<include>./options/syslogos/syslogo_yes.xml</include>
+    <include>./options/syslogos/syslogo_no.xml</include>
+
+</theme>

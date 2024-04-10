@@ -1,0 +1,92 @@
+<!-- Horizontal icon menu -->
+
+<theme>
+  <formatVersion>4</formatVersion>
+ <include>./common.xml</include>
+  <feature supported="carousel">
+
+  <view name="system">
+    <carousel name="systemcarousel" extra="true">
+     <type>horizontal</type>
+     <pos>0 0.3</pos>
+      <size>1 1</size>
+      <color>ffffff00</color>
+      <logoScale>1.1</logoScale>
+      <logoSize>0.23 .23</logoSize>
+      <maxLogoCount>4</maxLogoCount>
+      <logoAlignment>right</logoAlignment>
+      <defaultTransition>instant</defaultTransition>
+      <scrollSound>./assets/sounds/scroll.mp3</scrollSound>
+    </carousel>
+
+    <image name="background" extra="true">
+         <origin>0 0</origin>
+         <pos>0 0</pos>
+         <size>1 1</size>
+         <path>./assets/filters/${themecolor}/home-bottombar.svg</path>
+      </image>
+  
+	<image name="logo">
+	</image>
+    
+   <helpsystem name="help">
+         <fontPath>./fonts/${font4g}.ttf</fontPath>
+         <fontSize>0.025</fontSize>     
+         <pos>1 1</pos>      
+         <textColor>${chelptext}</textColor>
+   </helpsystem>  
+
+	<text name="shortdescription">
+          <visible>true</visible>
+         <pos>0.08 0.96</pos>
+         <backgroundColor>00000000</backgroundColor>
+         <color>${cinfotext}</color>
+         <alignment>left</alignment>
+         <fontPath>./fonts/${font4g}</fontPath>
+         <fontSize>0.028</fontSize>
+         <glowColor>${ctextglow}</glowColor>
+         <glowSize>1</glowSize>
+   </text>
+
+   <text name="systemInfo">
+        <visible>false</visible>
+         <pos>0.007 0.885</pos>
+         <backgroundColor>00000000</backgroundColor>
+         <color>${cinfotext}</color>
+         <alignment>center</alignment>
+         <fontPath>./fonts/${font2s}</fontPath>
+         <fontSize>0.025</fontSize>
+         <glowColor>${ctextglow}</glowColor>
+         <glowSize>1</glowSize>
+   </text>
+
+
+   <image name="console" extra="true">
+		<path>./assets/logos/console/${system.theme}.svg</path>
+        <pos>0.07 0.15</pos>
+        <maxSize>0.3 0.5</maxSize>
+        <alignment>right</alignment>
+   </image> 
+
+   <text name="description" extra="true">
+        <visible>false</visible>
+        <fontPath>./fonts/${font3s}</fontPath>
+		<pos>.05 0.46</pos>
+        <size>0.92 0</size>
+		<alignment>center</alignment>
+		<color>${cdescriptiontext}</color>
+		<fontSize>0.024</fontSize>
+        <glowColor>${ctextglow}</glowColor>
+        <glowSize>1</glowSize>
+   </text>
+
+	   <text name="logoText">
+         <color>${cgtbgedgeselect}</color>
+        <fontPath>./fonts/${font3s}</fontPath>
+		 <fontSize>0.05</fontSize>
+         <alignment>center</alignment>
+      </text>
+
+	  </view>
+  </feature>  
+</theme>

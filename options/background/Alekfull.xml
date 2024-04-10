@@ -1,0 +1,12 @@
+<theme>
+<formatVersion>4</formatVersion>
+
+
+<view name="system, basic, detailed, grid">
+      <image name="art" extra="true">
+            <size>1 1</size>
+	     <path>./assets/backgrounds/Alekfull/default.jpg</path>
+         <path>./assets/backgrounds/Alekfull/${system.theme}.jpg</path>
+      </image>   
+</view>
+</theme>
