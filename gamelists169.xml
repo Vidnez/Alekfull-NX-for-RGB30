@@ -1,0 +1,282 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- gamelists -->
+<theme defaultView="detailed">
+  <formatVersion>7</formatVersion>
+
+  <!-- gamelists - basic view - simple list with plain background -->
+  <view name="basic">
+    <helpsystem name="help">
+      <fontPath>./fonts/${font4g}.ttf</fontPath>
+      <fontSize>0.025</fontSize>
+      <pos>1 1</pos>
+      <textColor>${chelptext}</textColor>
+    </helpsystem>
+    <image name="art" extra="true">
+      <origin>0 0</origin>
+      <pos>0 0</pos>
+      <size>1 1</size>
+    </image>
+    <textlist name="gamelist">
+      <pos>0.15 0.25</pos>
+      <alignment>center</alignment>
+      <size>0.7 0.700</size>
+      <primaryColor>${cgamelisttext}</primaryColor>
+      <selectedColor>${cselectedtext}</selectedColor>
+      <selectorColor>${cselector}</selectorColor>
+      <selectorColorEnd>${cselectorend}</selectorColorEnd>
+      <selectorGradientType>${cgradienttype}</selectorGradientType>
+      <fontPath>./fonts/${font1g}.ttf</fontPath>
+      <fontSize>0.035</fontSize>
+      <scrollSound>./assets/sounds/scroll.mp3</scrollSound>
+      <lineSpacing>2.075</lineSpacing>
+    </textlist>
+    <image name="background" extra="true">
+      <origin>0 0</origin>
+      <pos>0 0</pos>
+      <size>1 1</size>
+      <path>./assets/filters/${themecolor}/bg-simple.svg</path>
+    </image>
+    <image name="logo">
+      <pos>0.5 0.11</pos>
+      <maxSize>0.300 0.20</maxSize>
+      <path>./assets/logos/console/${system.theme}.svg</path>
+      <path>./assets/logos/console/${system.theme}.png</path>
+    </image>
+    <image name="system_logo" extra="true">
+      <pos>0.685 0.020</pos>
+      <maxSize>0.180 0.100</maxSize>
+    </image>
+  </view>
+
+  <!-- gamelists - detailed view -->
+  <view name="detailed">
+    <helpsystem name="help">
+      <fontPath>./fonts/${font4g}.ttf</fontPath>
+      <fontSize>0.025</fontSize>
+      <pos>1 1</pos>
+      <textColor>${chelptext}</textColor>
+    </helpsystem>
+    <image name="art" extra="true">
+      <origin>0 0</origin>
+      <pos>0 0</pos>
+      <size>1 1</size>
+    </image>
+    <textlist name="gamelist">
+      <pos>0.525 0.23</pos>
+      <size>0.415 0.7</size>
+      <primaryColor>${cgamelisttext}</primaryColor>
+      <selectedColor>${cselectedtext}</selectedColor>
+      <selectorColor>${cselector}</selectorColor>
+      <selectorColorEnd>${cselectorend}</selectorColorEnd>
+      <selectorGradientType>${cgradienttype}</selectorGradientType>
+      <fontPath>./fonts/${font1g}.ttf</fontPath>
+      <fontSize>0.029</fontSize>
+      <scrollSound>./assets/sounds/scroll.mp3</scrollSound>
+      <alignment>left</alignment>
+      <lineSpacing>2.275</lineSpacing>
+    </textlist>
+    <image name="background" extra="true">
+      <origin>0 0</origin>
+      <pos>0 0</pos>
+      <size>1 1</size>
+      <path>./assets/filters/${themecolor}/bg-detailed.svg</path>
+    </image>
+    <rating name="md_rating">
+      <visible>false</visible>
+      <pos>0.44 0.188</pos>
+      <size>0.35 0.038</size>
+      <filledPath>./assets/gamelist_icons/rating_filled.svg</filledPath>
+      <unfilledPath>./assets/gamelist_icons/rating_unfilled.svg</unfilledPath>
+      <color>${crating}</color>
+    </rating>
+    <image name="release_date_logo" extra="true">
+      <visible>false</visible>
+      <pos>0.40 0.07</pos>
+      <maxSize>0.035</maxSize>
+      <path>./assets/gamelist_icons/game_info_releasedate.svg</path>
+      <color>${cglicons}</color>
+    </image>
+    <datetime name="md_releasedate">
+      <visible>false</visible>
+      <pos>0.44 0.07</pos>
+      <fontPath>./fonts/${font1g}.ttf</fontPath>
+      <fontSize>0.024</fontSize>
+      <color>${cgldetail}</color>
+    </datetime>
+    <image name="genre_logo" extra="true">
+      <visible>false</visible>
+      <pos>0.40 0.130</pos>
+      <maxSize>0.035</maxSize>
+      <path>./assets/gamelist_icons/game_info_genre.svg</path>
+      <color>${cglicons}</color>
+    </image>
+    <text name="md_genre">
+      <visible>false</visible>
+      <pos>0.44 0.130</pos>
+      <fontPath>./fonts/${font1g}.ttf</fontPath>
+      <fontSize>0.024</fontSize>
+      <size>0.20 0.024</size>
+      <color>${cgldetail}</color>
+    </text>
+    <text name="md_description">
+      <color>${cgdescription}</color>
+      <pos>0.022 0.515</pos>
+      <size>0.435 0.4</size>
+      <fontPath>./fonts/${font2g}.ttf</fontPath>
+      <fontSize>0.024</fontSize>
+      <glowColor>${cglglow}</glowColor>
+      <glowSize>1</glowSize>
+    </text>
+    <video name="md_video">
+      <pos>0.235 0.275</pos>
+      <maxSize>0.35 0.40</maxSize>
+      <delay>${delay}</delay>
+      <showSnapshotNoVideo>true</showSnapshotNoVideo>
+      <showSnapshotDelay>true</showSnapshotDelay>
+      <zIndex>51</zIndex>
+      <visible>true</visible>
+    </video>
+    <image name="system_logo" extra="true">
+      <pos>0.685 0.020</pos>
+      <maxSize>0.180 0.100</maxSize>
+    </image>
+    <image name="logo">
+      <pos>0.73 0.10</pos>
+      <maxSize>0.300 0.2</maxSize>
+      <path>./assets/logos/console/${system.theme}.svg</path>
+      <path>./assets/logos/console/${system.theme}.png</path>
+    </image>
+  </view>
+ 
+ <!-- gamelists - grid view -->
+  <view name="grid">
+    <helpsystem name="help">
+      <fontPath>./fonts/${font4g}.ttf</fontPath>
+      <fontSize>0.025</fontSize>
+      <pos>1 1</pos>
+      <textColor>${chelptext}</textColor>
+    </helpsystem>
+    <rating name="md_rating">
+      <visible>false</visible>
+    </rating>
+    <image name="art" extra="true">
+      <origin>0 0</origin>
+      <pos>0 0</pos>
+      <size>1 1</size>
+      <zIndex>2</zIndex>
+    </image>
+    <image name="background" extra="true">
+      <origin>0 0</origin>
+      <pos>0 0</pos>
+      <size>1 1</size>
+      <path>./assets/filters/${themecolor}/grid.svg</path>
+    </image>
+    <imagegrid name="gamegrid">
+      <pos>-0.01 0.1</pos>
+      <size>1 0.9</size>
+      <autoLayoutSelectedZoom>1</autoLayoutSelectedZoom>
+      <imageSource>image</imageSource>
+      <scrollDirection>vertical</scrollDirection>
+      <autoLayout>3 3</autoLayout>
+      <margin>0.00001 0.015</margin>
+      <padding>0.02 0.02 0 0</padding>
+      <scrollSound>./assets/sounds/scroll.mp3</scrollSound>
+      <animateSelection>false</animateSelection>
+      <maxlength>.5</maxlength>
+    </imagegrid>
+    <gridtile name="default">
+      <backgroundColor>${cgtbg}</backgroundColor>
+      <backgroundCornerSize>9 9</backgroundCornerSize>
+      <selectionMode>image</selectionMode>
+      <padding>9 9</padding>
+      <imageColor>${cgtimage}</imageColor>
+    </gridtile>
+    <gridtile name="selected">
+      <backgroundCenterColor>${ccenterfade}</backgroundCenterColor>
+      <backgroundEdgeColor>${cgtbgedgeselect}</backgroundEdgeColor>
+      <imageColor>${cgtimageselect}</imageColor>
+    </gridtile>
+    <text name="gridtile">
+      <color>${cgtext}</color>
+      <backgroundColor>${cgtextbg}</backgroundColor>
+      <fontSize>0.030</fontSize>
+      <alignment>center</alignment>
+      <size>.05 0.24</size>
+      <visible>false</visible>
+    </text>
+    <text name="gridtile_selected">
+      <color>${cgtextselect}</color>
+      <glowColor>${glowColor}</glowColor>
+      <glowSize>5</glowSize>
+      <visible>false</visible>
+    </text>
+    <text name="md_name">
+      <fontPath>./fonts/${font4g}.ttf</fontPath>
+      <fontSize>0.035</fontSize>
+      <pos>0.02 0.025</pos>
+      <textColor>FFFFFF</textColor>
+    </text>
+    <image name="release_date_logo" extra="true">
+      <visible>false</visible>
+      <pos>0.02 0.963</pos>
+      <maxSize>0.025</maxSize>
+      <path>./assets/gamelist_icons/game_info_releasedate.svg</path>
+      <color>ffefef</color>
+    </image>
+    <datetime name="md_releasedate">
+      <pos>0.058 0.951</pos>
+      <fontPath>./fonts/${font1g}.ttf</fontPath>
+      <fontSize>0.024</fontSize>
+      <color>FFFFFF00</color>
+    </datetime>
+    <text name="md_description">
+      <pos>1 1</pos>
+      <size>0.30 0.250</size>
+      <fontSize>0.024</fontSize>
+      <color>${cgdescription}</color>
+    </text>
+    <video name="md_video">
+      <pos>0.825 0.462</pos>
+      <maxSize>0.35 0.40</maxSize>
+      <origin>0.5 0.5</origin>
+      <delay>${delay}</delay>
+      <showSnapshotNoVideo>true</showSnapshotNoVideo>
+      <showSnapshotDelay>true</showSnapshotDelay>
+      <visible>false</visible>
+    </video>
+    
+    <image name="logo">
+      <pos>0.87 0.025</pos>
+      <maxSize>0.200 0.220</maxSize>
+      <path>./assets/logos/console/${system.theme}.svg</path>
+    </image>
+    <image name="system_logo" extra="true">
+      <pos>0.685 0.020</pos>
+      <maxSize>0.180 0.100</maxSize>
+    </image>
+    <image name="gridtile.favorite">
+      <path>./assets/favorites.svg</path>
+      <pos>0.0 0</pos>
+      <maxSize>0.25 0.25</maxSize>
+      <origin>0 0</origin>
+      <color>ffffff</color>
+    </image>
+    <image name="gridtile.favorite:selected">
+      <path>./assets/favorites.svg</path>
+      <color>${cgtbgedgeselect}</color>
+    </image>
+    <image name="gridtile.cheevos">
+      <path>./assets/cheevos.svg</path>
+      <pos>0 1</pos>
+      <maxSize>0.25 0.25</maxSize>
+      <origin>0 1</origin>
+      <color>ffffff</color>
+    </image>
+    <image name="gridtile.cheevos:selected">
+      <path>./assets/cheevos.svg</path>
+      <color>${cgtbgedgeselect}</color>
+    </image>
+  </view>
+
+</theme>
