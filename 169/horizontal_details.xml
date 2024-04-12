@@ -49,11 +49,10 @@
    </text>
 
    <text name="systemInfo">
-        <visible>false</visible>
-         <pos>0.007 0.885</pos>
+         <pos>0.163 0.085</pos>
          <backgroundColor>00000000</backgroundColor>
          <color>${cinfotext}</color>
-         <alignment>center</alignment>
+         <alignment>left</alignment>
          <fontPath>./fonts/${font2s}</fontPath>
          <fontSize>0.025</fontSize>
          <glowColor>${ctextglow}</glowColor>
