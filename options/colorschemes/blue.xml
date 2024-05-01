@@ -29,7 +29,7 @@
     <cselected>FFFFFF</cselected>	<!-- ## selected menu text ## -->
     <cmenusubtitle>a2a2a2</cmenusubtitle>	<!-- ## menu subtitle color ## -->
     <cmenutitle>d0d0d0</cmenutitle>	<!-- ## menu title color ## -->
-    <cmenubg>28273e</cmenubg>	<!-- ## menu background color ## -->
+    <cmenubg>0c0a29</cmenubg>	<!-- ## menu background color ## -->
 
 
 <!-- Global stuff -->
@@ -52,7 +52,7 @@
 <!-- System view colour settings for text etc -->
 
     <cinfotext>ffffff</cinfotext>	<!--## info text color ## -->
-    <cdescriptiontext>0e0e29</cdescriptiontext>	<!--## description text color ## -->
+    <cdescriptiontext>b3b3b3</cdescriptiontext>	<!--## description text color ## -->
     <cshortdescriptiontext>b3b3b3</cshortdescriptiontext>	<!--## short descirptiontext color ## -->
 
 <!-- gamelists -->

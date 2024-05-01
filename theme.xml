@@ -38,7 +38,7 @@ github:			https://github.com/fagnerpc
        </text>
 
        <batteryIndicator name="batteryIndicator">
-         <pos>0.82 0.96</pos>
+         <pos>0.81 0.96</pos>
          <size>0.04</size>
          <itemSpacing>0.008333333</itemSpacing>
          <color>b3b3b3</color>
