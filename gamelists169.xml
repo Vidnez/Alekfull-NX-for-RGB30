@@ -134,6 +134,7 @@
       <delay>${delay}</delay>
       <showSnapshotNoVideo>true</showSnapshotNoVideo>
       <showSnapshotDelay>true</showSnapshotDelay>
+      <default>./assets/no_signal.mp4</default>
       <zIndex>51</zIndex>
       <visible>true</visible>
     </video>
@@ -175,8 +176,11 @@
     <imagegrid name="gamegrid">
       <pos>-0.01 0.1</pos>
       <size>1 0.9</size>
+      <centerSelection>false</centerSelection>
+      <scrollLoop>false</scrollLoop>
       <autoLayoutSelectedZoom>1</autoLayoutSelectedZoom>
       <imageSource>image</imageSource>
+      <gameImage>./assets/screenshot.png</gameImage>
       <scrollDirection>vertical</scrollDirection>
       <autoLayout>3 3</autoLayout>
       <margin>0.00001 0.015</margin>
@@ -214,8 +218,10 @@
     <text name="md_name">
       <fontPath>./fonts/${font4g}.ttf</fontPath>
       <fontSize>0.035</fontSize>
-      <pos>0.02 0.025</pos>
+      <pos>0.24 0.02</pos>
+      <size>0.58 0</size>
       <textColor>FFFFFF</textColor>
+      <visible>true</visible>
     </text>
     <image name="release_date_logo" extra="true">
       <visible>false</visible>
@@ -237,17 +243,23 @@
       <color>${cgdescription}</color>
     </text>
     <video name="md_video">
-      <pos>0.825 0.462</pos>
-      <maxSize>0.35 0.40</maxSize>
+      <pos>0.9 0.058</pos>
+      <maxSize>0.15 0.12</maxSize>
       <origin>0.5 0.5</origin>
+      <default>./assets/no_signal.mp4</default>
       <delay>${delay}</delay>
       <showSnapshotNoVideo>true</showSnapshotNoVideo>
-      <showSnapshotDelay>true</showSnapshotDelay>
-      <visible>false</visible>
+      <showSnapshotDelay>false</showSnapshotDelay>
+      <visible>true</visible>
     </video>
+    <image name="md_marquee">
+       <pos>0.5 0.05</pos>
+       <maxSize>0.2 0.1</maxSize>
+       <visible>false</visible>
+    </image> 
     
     <image name="logo">
-      <pos>0.87 0.025</pos>
+      <pos>0.13 0.025</pos>
       <maxSize>0.200 0.220</maxSize>
       <path>./assets/logos/console/${system.theme}.svg</path>
     </image>
