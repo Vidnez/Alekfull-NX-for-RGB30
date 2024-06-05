@@ -2,7 +2,7 @@
 # Alekfull-NX-for-RGB30
 Modified version of Alekfull NX theme for the Powkiddy RGB30.
 
-There are two versions in the releases section, one for JELOS and one for ARKOS.
+There are two versions in the releases section, one for JELOS/ROCKNIX and one for ARKOS.
 
 NOTE: The theme is optimized to use screenshots or title screenshots instead of boxarts for game lists and wheel for logos.
 
