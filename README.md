@@ -1,7 +1,12 @@
 
-# Alekfull-NX-for-RGB30
-Modified version of Anekfull NX theme for the Powkiddy RGB30
-Modified version of Alekfull NX theme for the Powkiddy RGB30
+# Alekfull-NX-ArkOS
+
+Adaptation for 1:1 screens on ArkOS of the Alekfull NX theme.
+
+![Preview AlekfullNX](https://github.com/user-attachments/assets/75a4c3cf-c94b-4eda-ba70-30f864b40445)
 
 
-![preview](https://github.com/Vidnez/Alekfull-NX-for-RGB30/assets/82564218/1b84d4e1-c50a-4fab-8325-da74820c6b6d)
+
+
+
+
