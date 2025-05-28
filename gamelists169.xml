@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- gamelists -->
+<theme defaultView="detailed">
+  <formatVersion>7</formatVersion>
+
+  <!-- gamelists - basic view - simple list with plain background -->
+  <view name="basic">
+    <helpsystem name="help">
+      <fontPath>./fonts/${font4g}.ttf</fontPath>
+      <fontSize>0.024</fontSize>
+      <pos>0.062 0.97</pos>
+      <textColor>${chelptext}</textColor>
+    </helpsystem>
+    <image name="art" extra="true">
+      <pos>0 0.1</pos>
+      <size>1 0</size>
+    </image>
+    <textlist name="gamelist">
+      <pos>0.15 0.25</pos>
+      <alignment>center</alignment>
+      <size>0.7 0.6</size>
+      <primaryColor>${cgamelisttext}</primaryColor>
+      <selectedColor>${cselectedtext}</selectedColor>
+      <selectorColor>${cselector}</selectorColor>
+      <selectorColorEnd>${cselectorend}</selectorColorEnd>
+      <selectorGradientType>${cgradienttype}</selectorGradientType>
+      <fontPath>./fonts/${font1g}.ttf</fontPath>
+      <fontSize>0.035</fontSize>
+      <scrollSound>./assets/sounds/scroll.wav</scrollSound>
+      <lineSpacing>1.9</lineSpacing>
+    </textlist>
+    <image name="background" extra="true">
+      <origin>0 0</origin>
+      <pos>0 0</pos>
+      <size>1 1</size>
+      <path>./assets/filters/${themecolor}/bg-simple.png</path>
+    </image>
+    <image name="logo">
+      <pos>0.5 0.11</pos>
+      <maxSize>0.300 0.20</maxSize>
+      <path>./assets/logos/console/${system.theme}.svg</path>
+      <path>./assets/logos/console/${system.theme}.png</path>
+    </image>
+    <image name="system_logo" extra="true">
+      <pos>0.685 0.020</pos>
+      <maxSize>0.180 0.100</maxSize>
+    </image>
+  </view>
+
+  <!-- gamelists - detailed view -->
+  <view name="detailed">
+    <helpsystem name="help">
+      <fontPath>./fonts/${font4g}.ttf</fontPath>
+     <fontSize>0.024</fontSize>
+      <pos>0.062 0.97</pos>
+      <textColor>${chelptext}</textColor>
+    </helpsystem>
+    <image name="art" extra="true">
+      <pos>0 0.1</pos>
+      <size>1 0</size>
+    </image>
+    <textlist name="gamelist">
+      <pos>0.525 0.23</pos>
+      <size>0.415 0.66</size>
+      <primaryColor>${cgamelisttext}</primaryColor>
+      <selectedColor>${cselectedtext}</selectedColor>
+      <selectorColor>${cselector}</selectorColor>
+      <selectorColorEnd>${cselectorend}</selectorColorEnd>
+      <selectorGradientType>${cgradienttype}</selectorGradientType>
+      <fontPath>./fonts/${font1g}.ttf</fontPath>
+      <fontSize>0.035</fontSize>
+      <scrollSound>./assets/sounds/scroll.wav</scrollSound>
+      <alignment>left</alignment>
+      <lineSpacing>1.9</lineSpacing>
+    </textlist>
+    <image name="background" extra="true">
+      <origin>0 0</origin>
+      <pos>0 0</pos>
+      <size>1 1</size>
+      <path>./assets/filters/${themecolor}/bg-detailed.png</path>
+    </image>
+ 
+    <text name="md_description">
+      <color>${cgdescription}</color>
+      <pos>0.022 0.515</pos>
+      <size>0.435 0.4</size>
+      <fontPath>./fonts/${font2g}</fontPath>
+      <fontSize>0.02</fontSize>
+      <glowColor>${ctextglow}</glowColor>
+      <glowSize>0</glowSize>
+    </text>
+
+    <video name="md_video">
+      <pos>0.235 0.275</pos>
+      <maxSize>0.35 0.40</maxSize>
+      <delay>${delay}</delay>
+      <effect>none</effect>
+      <showSnapshotNoVideo>true</showSnapshotNoVideo>
+      <showSnapshotDelay>true</showSnapshotDelay>
+      <zIndex>51</zIndex>
+      <visible>true</visible>
+    </video>
+
+    <image name="logo">
+      <pos>0.73 0.10</pos>
+      <maxSize>0.300 0.2</maxSize>
+      <path>./assets/logos/console/${system.theme}.svg</path>
+      <path>./assets/logos/console/${system.theme}.png</path>
+    </image>
+  </view>
+ 
+ <!-- gamelists - grid view -->
+  <view name="grid">
+    <helpsystem name="help">
+      <fontPath>./fonts/${font4g}.ttf</fontPath>
+      <fontSize>0.024</fontSize>
+      <pos>0.062 0.97</pos>
+      <textColor>${chelptext}</textColor>
+    </helpsystem>
+    
+    <image name="art" extra="true">
+      <pos>0 0.1</pos>
+      <size>1 0</size>
+    </image>
+    <image name="background" extra="true">
+      <origin>0 0</origin>
+      <pos>0 0</pos>
+      <size>1 1</size>
+      <path>./assets/filters/${themecolor}/grid.png</path>
+    </image>
+    <imagegrid name="gamegrid">
+      <pos>-0.01 0.1</pos>
+      <size>1 0.85</size>
+      <autoLayoutSelectedZoom>1</autoLayoutSelectedZoom>
+      <imageSource>image</imageSource>
+      <scrollDirection>vertical</scrollDirection>
+      <autoLayout>3 3</autoLayout>
+      <margin>0.00001 0.015</margin>
+      <padding>0.02 0.02 0 0</padding>
+      <animateSelection>false</animateSelection>
+      <maxlength>.5</maxlength>
+      <showVideoAtDelay>${pandelay}</showVideoAtDelay>
+      <effect>none</effect>
+    </imagegrid>
+    <gridtile name="default">
+      <backgroundColor>${cgtbg}</backgroundColor>
+      <backgroundCornerSize>9 9</backgroundCornerSize>
+      <selectionMode>image</selectionMode>
+      <padding>9 9</padding>
+      <imageColor>${cgtimage}</imageColor>
+    </gridtile>
+    <gridtile name="selected">
+      <backgroundCenterColor>${ccenterfade}</backgroundCenterColor>
+      <backgroundEdgeColor>${cgtbgedgeselect}</backgroundEdgeColor>
+      <imageColor>${cgtimageselect}</imageColor>
+    </gridtile>
+    <text name="gridtile">
+      <color>${cgtext}</color>
+      <backgroundColor>${cgtextbg}</backgroundColor>
+      <fontSize>0.030</fontSize>
+      <alignment>center</alignment>
+      <size>.05 0.24</size>
+      <visible>false</visible>
+    </text>
+  
+    <text name="md_name">
+      <fontPath>./fonts/${font4g}.ttf</fontPath>
+      <fontSize>0.033</fontSize>
+      <origin>0 0</origin>
+      <alignment>center</alignment>
+      <pos>0.19 -0.022</pos>
+      <size>0.63 0.1</size>
+      <color>${cinfotext}</color>
+    </text>
+    
+    
+    <image name="logo">
+    </image>
+    <image name="system_logo" extra="true">
+      <pos>0.025 0.025</pos>
+      <maxSize>0.200 0.220</maxSize>
+      <path>./assets/logos/console/${system.theme}.svg</path>
+      <path>./assets/logos/console/${system.theme}.png</path>
+      <visible>false</visible>
+    </image>
+    <image name="gridtile.favorite">
+      <path>./assets/favorites.svg</path>
+      <pos>0.0 0</pos>
+      <maxSize>0.25 0.25</maxSize>
+      <origin>0 0</origin>
+      <color>ffffff</color>
+    </image>
+    <image name="gridtile.favorite:selected">
+      <path>./assets/favorites.svg</path>
+      <color>${cgtbgedgeselect}</color>
+    </image>
+    <image name="gridtile.cheevos">
+      <path>./assets/cheevos.svg</path>
+      <pos>0 1</pos>
+      <maxSize>0.25 0.25</maxSize>
+      <origin>0 1</origin>
+      <color>ffffff</color>
+    </image>
+    <image name="gridtile.cheevos:selected">
+      <path>./assets/cheevos.svg</path>
+      <color>${cgtbgedgeselect}</color>
+    </image>
+  </view>
+
+</theme>
