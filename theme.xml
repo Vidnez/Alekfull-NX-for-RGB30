@@ -10,7 +10,7 @@ github:			https://github.com/fagnerpc
 
 <!-- default view -->
 
-<theme defaultView="detailed">
+   <theme defaultView="detailed">
    <formatVersion>7</formatVersion>
    <include>./config.xml</include>
    <include>./gamelists${ratset}.xml</include>
@@ -18,39 +18,33 @@ github:			https://github.com/fagnerpc
 <!-- screen settings -->
 	
    <view name="screen">
-      <controllerActivity name="controllerActivity">
-         <visible>false</visible>
-      </controllerActivity>
-
       <text name="clock">
          <origin>0 0.5</origin>
-         <pos>0.82 0.046</pos>
+         <pos>0.82 0.05</pos>
          <size>0.15 0.1</size>
-
-         <fontPath>./fonts/${font2g}.ttf</fontPath>
-         <fontSize>0.03</fontSize>
+         <fontSize>0.023</fontSize>
          <lineSpacing>1</lineSpacing>
          <alignment>center</alignment>
          <padding>0 0.015 0 0</padding>
          <color>${clockcolor}</color>
-       </text>
+      </text>
 
-       <batteryIndicator name="batteryIndicator">
+      <batteryIndicator name="batteryIndicator">
          <origin>0 0</origin>
-         <pos>0.05 0</pos>
-         <size>0.055</size>
+         <pos>0.05 0.01</pos>
+         <size>0.04</size>
          <itemSpacing>0.008333333</itemSpacing>
          <color>${clockcolor}</color>
 
          <!-- Assets -->
-         <full>./assets/helpicons/battery=full.png</full>
-         <at75>./assets/helpicons/battery=75.png</at75>
-         <at50>./assets/helpicons/battery=50.png</at50>
-         <at25>./assets/helpicons/battery=25.png</at25>
-         <empty>./assets/helpicons/battery=empty.png</empty>
-         <incharge>./assets/helpicons/battery=charging.png</incharge>
-         <networkIcon>./assets/helpicons/wifi=on.png</networkIcon>
-       </batteryIndicator>
+         <full>./assets/helpicons/battery=full.svg</full>
+         <at75>./assets/helpicons/battery=75.svg</at75>
+         <at50>./assets/helpicons/battery=50.svg</at50>
+         <at25>./assets/helpicons/battery=25.svg</at25>
+         <empty>./assets/helpicons/battery=empty.svg</empty>
+         <incharge>./assets/helpicons/battery=charging.svg</incharge>
+      </batteryIndicator>
+
    </view>
 
 <!-- menu configs -->
@@ -61,6 +55,7 @@ github:			https://github.com/fagnerpc
          <fontSize>0.025</fontSize>
          <color>${cmenufooter}</color>
       </menuText>
+
       <menuText name="menutext">
          <fontPath>./fonts/OpenSans-Light.ttf</fontPath>
          <fontSize>0.035</fontSize>
@@ -71,24 +66,27 @@ github:			https://github.com/fagnerpc
          <selectedColor>${cselected}</selectedColor>
          <selectorGradientType>${cgradienttype}</selectorGradientType>
        </menuText>
+
       <menuTextSmall name="menutextsmall">
          <fontPath>./fonts/OpenSans-Semibold.ttf</fontPath>
          <fontSize>0.03</fontSize>
          <color>${cmenusubtitle}</color>
       </menuTextSmall>
+
       <menuText name="menutitle">
          <fontPath>./fonts/OpenSans-Semibold.ttf</fontPath>
          <fontSize>0.04</fontSize>
          <color>${cmenutitle}</color>
       </menuText>
+
       <menuBackground name="menubg">
          <color>${cmenubg}</color>
-     </menuBackground>
+      </menuBackground>
 
-     <menuTextEdit name="menutextedit">
-      <inactive>./assets/menu-textinput.png</inactive>
-      <active>./assets/menu-textinput-active.png</active>
-    </menuTextEdit>
+      <menuTextEdit name="menutextedit">
+         <inactive>./assets/menu-textinput.png</inactive>
+         <active>./assets/menu-textinput-active.png</active>
+      </menuTextEdit>
 
       <menuIcons name="menuicons">
          <iconKodi>./assets/menu_icons/${cmenuicons}/Kodi.png</iconKodi>
@@ -105,40 +103,54 @@ github:			https://github.com/fagnerpc
          <iconRestart>./assets/menu_icons/${cmenuicons}/Restart.png</iconRestart>
          <iconShutdown>./assets/menu_icons/${cmenuicons}/Shutdown.png</iconShutdown>
          <iconFastShutdown>./assets/menu_icons/${cmenuicons}/Fastshutdown.png</iconFastShutdown>
-		 <iconRetroachievements>./assets/menu_icons/${cmenuicons}/Contest.png</iconRetroachievements>
-		 <iconEmuelec>./assets/menu_icons/${cmenuicons}/Emuelec.png</iconEmuelec>
+		   <iconRetroachievements>./assets/menu_icons/${cmenuicons}/Contest.png</iconRetroachievements>
+		   <iconEmuelec>./assets/menu_icons/${cmenuicons}/Emuelec.png</iconEmuelec>
       </menuIcons>
       
    </view>
 
    <view name="system">
-    <helpsystem name="help">
-      <pos>0.045 0.97</pos>
-      <fontPath>./fonts/OpenSans-Semibold.ttf</fontPath>
-     <textColor>ffffff</textColor>
-      <iconColor>ffffff</iconColor>
-      <fontSize>0.024</fontSize>
-      <alignment>center</alignment>
-    </helpsystem>
-  </view>
+      <helpsystem name="help">
+         <origin>0.5 0.5</origin>
+         <pos>0.5 0.977</pos>
+         <textColor>ffffff</textColor>
+         <iconColor>ffffff</iconColor>
+         <fontSize>0.02</fontSize>
+      </helpsystem>
+   </view>
    
-	
-<!-- tinyscreen 
- 
-   <include tinyScreen="true">./gpicase.xml</include> -->
 
 <!-- help bar -->
 
    <view name="system" ifHelpPrompts="false">
-      <image name="BottomBar" extra="true">
-         <visible>false</visible>
-      </image>
+            <text name="shortdescription">
+          <visible>true</visible>
+         <pos>0.245 0.958</pos>
+         <origin>0.5 0</origin>
+         <backgroundColor>00000000</backgroundColor>
+         <color>ffffff</color>
+         <fontPath>./fonts/${font4g}</fontPath>
+         <fontSize>0.022</fontSize>
+         <forceUppercase>true</forceUppercase>
+         <glowColor>${ctextglow}</glowColor>
+         <glowSize>0</glowSize>
+   </text>
    </view>
 
 	<view name="basic, detailed, grid" ifHelpPrompts="false">
-      <image name="bottom" extra="true">
-         <visible>false</visible>
-      </image>
+    <text name="system_name" extra="true">
+      <visible>true</visible>
+      <text>— ${system.fullName} —</text>
+      <fontPath>./fonts/${font4g}</fontPath>
+      <forceUppercase>0</forceUppercase>
+      <size>0 0</size>
+      <pos>0.5 0.958</pos>
+      <color>ffffff</color>
+      <origin>0.5 0</origin>
+      <fontSize>0.022</fontSize>
+      <forceUppercase>true</forceUppercase>
+      <zIndex>50</zIndex>
+    </text>
    </view>
 	
 	

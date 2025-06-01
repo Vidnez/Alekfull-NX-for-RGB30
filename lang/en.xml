@@ -106,6 +106,34 @@
     <subset.videoview>Gamelist Video Delay</subset.videoview>
     <subset.sysvdelay>System Video Delay</subset.sysvdelay>
 <!-- System descriptions -->
+
+<!-- Recently added start here-->
+
+    <j2me>ava Platform, Micro Edition or Java ME is a computing platform for development and deployment of portable code for embedded and mobile devices. Java ME was formerly known as Java 2 Platform, Micro Edition or J2ME</j2me>
+    <piece>The P/ECE was a Japan-only handheld/mobile gaming console released in late-2001. It was created by Aquaplus, a company better known for visual novels.</piece>
+    <palm>Palm OS was a proprietary mobile operating system. Designed in 1996 for Palm Computing, Inc.'s new Pilot PDA, it has been implemented on a wide array of mobile devices, including smartphones, wrist watches, handheld gaming consoles, barcode readers and GPS devices.</palm>
+    <microvision>The Microvision is the first handheld game console that used interchangeable cartridges and in that sense is reprogrammable. Its small game library, its small screen, and a lack of support from established home video game companies led to its demise in 1981.</microvision>
+    <scv>A version of the system targeted the young female market was released in 1985 as the Super Lady Cassette Vision with a price of ¥19,300. This console came packed in a pink carrying case, alongside the game Milky Princess.</scv>
+    <arduboy>The Arduboy is a handheld game console with open source software, based on the Arduino hardware platform.</arduboy>
+    <ti99>The TI-99/4A is a self-contained console with the motherboard, ROM cartridge slot, and full-travel keyboard in the same case. The power supply is external. An RF modulator allows the use of a television as a monitor.</ti99>
+    <msdos>Microsoft Disk Operating System, also known as Microsoft DOS) is an operating system for x86-based personal computers mostly developed by Microsoft.</msdos>
+    <x1>The RGB display monitor for the X1 had a television tuner, and a computer screen could be superimposed on TV.[1] All the TV functions could be controlled from a computer program.</x1>
+    <pico>Marketed as "edutainment", the main focus of the Pico was educational video games for children between 3 and 7 years old. Releases for the Pico were focused on education for children and included titles supported by licensed franchised animated characters, including Sega's own Sonic the Hedgehog series.</pico>
+    <vmu>The device features a monochrome liquid crystal display, multiplayer gaming capability, second screen functionality, a real-time clock, file manager, built-in flash memory, and sound capability. Prior to the launch of the Dreamcast, a special Godzilla edition VMU, preloaded with a virtual pet game, was released on July 30, 1998, in Japan.</vmu>
+    <love>LÖVE is a framework for making 2D games in the Lua programming language</love>
+    <n64dd>The 64DD[b] is a peripheral developed by Nintendo to expand the capabilities of the Nintendo 64 with rewritable magnetic disks and online connectivity.Plugging into the extension port on the console's underside, the 64DD enabled expanded, rewritable data storage via proprietary 64 MB magnetic disks.</n64dd>
+    <sufami>This device is designed to sit on top of the Super Famicom, and features two cartridge slots. The two cartridge slots are designed to share data between the games. The cartridge placed in slot 1 is the game that will be played, while the cartridge in slot 2 supplies additional data for use in the main game.</sufami>
+    <satellaview>The Satellaview[a] was a satellite modem peripheral produced by Nintendo for the Super Famicom. Satellaview allowed players to download games, magazines, and other media through satellite broadcasts provided by Japanese company St.GIGA.</satellaview>
+    <odyssey2>The Magnavox Odyssey 2, also known as Philips Odyssey 2, is a home video game console of the second generation. The Odyssey 2 was one of the five major home consoles prior to the 1983 video game market crash, along with Atari 2600, Atari 5200, Intellivision and ColecoVision.</odyssey2>
+    <atarixegs>The Atari XE Video Game System (Atari XEGS) is an industrial redesign of the Atari 65XE home computer and the final model in the Atari 8-bit computer series. The XEGS is compatible with existing Atari 8-bit computer hardware and software.</atarixegs>
+    <cdi>Philips's CDI 910/205, was released in late 1991. It was initially priced around US$1,000 (equivalent to $2,309 in 2024), and was capable of playing interactive CD-i discs, Audio CDs, CD+G (CD+Graphics), Photo CDs and Video CDs (VCDs), though the latter required an optional "Digital Video Card" to provide MPEG-1 decoding.</cdi>
+    <channelf>The Fairchild Channel F, short for "Channel Fun", is a home video game console, the first to be based on a microprocessor and to use ROM cartridges (branded 'Videocarts') instead of having games built-in. Channel F was unable to compete against Atari's Video Computer System (VCS) as the console only had 22 games compared to Atari's 187.</channelf>
+    <astrocade>The system, combined into a single box, would eventually be released as the Datamax UV-1. Aimed at the home computer market while being designed, the machine was then re-targeted as a system for outputting high-quality graphics to videotape. These were offered for sale some time between 1980 and 1982, but it is unknown how many were built.</astrocade>
+    <macintosh>The Macintosh, later rebranded as the Macintosh 128K, is the original Macintosh personal computer from Apple. It is the first successful mass-market all-in-one desktop personal computer with a graphical user interface, built-in screen and mouse</macintosh>
+    <cavestory>Cave Story is a Metroidvania game developed over five years by Japanese independent developer Daisuke "Pixel" Amaya in his free time. Cave Story features 2D platform mechanics and is reminiscent of games such Metroid and Castlevania.</cavestory>
+    <bbcmicro>The BBC Microcomputer System, or BBC Micro, is a family of microcomputers developed and manufactured by Acorn Computers in the early 1980s.Came with a full-travel keyboard and ten user-configurable function keys.</bbcmicro>
+    <apple2>The Apple II computers are based on the 6502 8-bit processor and can display text and two resolutions of color graphics. A software-controlled speaker provides one channel of low-fidelity audio. A model with more advanced graphics and sound and a 16-bit processor, the Apple IIGS, was added in 1986.</apple2>
+    <advision>Adventure Vision was a cartridge-based system. However, only four games were released, all arcade conversions. These included Defender (the pack-in game with the system), Turtles, Super Cobra, and Space Force. All four games could be stored in a little compartment on top of the system.</advision>
     <megaduck>The Mega Duck WG-108 (also known as Cougar Boy) is a handheld game console that was developed and manufactured by Hong Kong–based Welback Holdings through its Timlex International division, and released in 1993.</megaduck>
     <supervision>The Watara Supervision, also known as the QuickShot Supervision in the UK, is a monochrome handheld game console, originating from Asia, and introduced in 1992 as a cut-price competitor for Nintendo's Game Boy</supervision>
     <retropie>Configuration tools and scripts for ArkOS.</retropie>
@@ -113,6 +141,7 @@
     <wolf>Wolfenstein is a series of alternate history World War II video games originally developed by Muse Software.[1] The majority of the games follow William "B.J." Blazkowicz, an American Army captain, and his fight against the Axis powers.</wolf>
     <easyrpg>EasyRPG is a community project to create a free, open source, role playing game creation tool, compatible with RPG Maker 2000/2003 games</easyrpg>
     <retroarch>RetroArch is a free and open-source, cross-platform frontend for emulators, game engines, video games, media players and other applications.</retroarch>
+<!-- Recently added ends here-->
 
     <alg>American Laser Games was a company based in Albuquerque, New Mexico that created numerous light gun laserdisc video games featuring live action full motion video.</alg>
     <psx>The PlayStation (unofficially abbreviated as PSX) is a home video game console developed and marketed by Sony Computer Entertainment.  The original console in the series was the first console of any type to ship over 100 million units, doing so in under a decade.</psx>

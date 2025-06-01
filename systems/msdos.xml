@@ -17,10 +17,10 @@
 
 
 	  <text name="shortdescription" extra="true">
-   <text>year  ·  x-bit Console</text>
+   <text>1981  ·  32-bit PCs</text>
   </text>
 		<text name="description" extra="true">
-			<text>${supervision}</text>
+			<text>${msdos}</text>
 		</text>
 		
 	</view>

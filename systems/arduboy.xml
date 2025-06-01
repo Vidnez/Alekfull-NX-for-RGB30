@@ -17,10 +17,10 @@
 
 
 	  <text name="shortdescription" extra="true">
-   <text>year  ·  x-bit Console</text>
+   <text>2015  ·  8-bit Handheld</text>
   </text>
 		<text name="description" extra="true">
-			<text>${supervision}</text>
+			<text>${arduboy}</text>
 		</text>
 		
 	</view>

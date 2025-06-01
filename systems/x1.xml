@@ -17,10 +17,10 @@
 
 
 	  <text name="shortdescription" extra="true">
-   <text>year  ·  x-bit Console</text>
+   <text>1988  ·  16-bit Console</text>
   </text>
 		<text name="description" extra="true">
-			<text>${supervision}</text>
+			<text>${x1}</text>
 		</text>
 		
 	</view>

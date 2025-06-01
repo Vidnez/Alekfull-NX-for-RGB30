@@ -29,7 +29,7 @@
     <cselected>FFFFFF</cselected>	<!-- ## selected menu text ## -->
     <cmenusubtitle>a2a2a2</cmenusubtitle>	<!-- ## menu subtitle color ## -->
     <cmenutitle>d0d0d0</cmenutitle>	<!-- ## menu title color ## -->
-    <cmenubg>302f46e6</cmenubg>	<!-- ## menu background color ## -->
+    <cmenubg>1f1d38e6</cmenubg>	<!-- ## menu background color ## -->
 
 
 <!-- Global stuff -->
@@ -40,7 +40,7 @@
 <!-- Selector highlight on menus and gamelist -->
 	
 	<cselector>30508b</cselector>  <!-- ## main gradient for all selector bars on menus and gamelist ## -->
-    <cselectorend>126b81</cselectorend>   <!-- ## main gradient for all selector bars on menus and gamelist ## -->
+    <cselectorend>00c4ff</cselectorend>   <!-- ## main gradient for all selector bars on menus and gamelist ## -->
 	<cgradienttype>horizontal</cgradienttype> <!-- horizontal or vertical -->
 		
 <!-- controller activity -->
@@ -73,14 +73,14 @@
 	<cgtbg>00000000</cgtbg>   <!-- tile background -->	
 	<cgtext>0e0e29</cgtext> <!-- unselected text -->
 	<cgtextselect>0e0e29</cgtextselect> <!-- selected text -->
-	<cgtimage>fdfdda</cgtimage>  <!-- gridtile image color -->
-	<cgtimageselect>dfddda</cgtimageselect>  <!-- gridtile image color selected -->
+	<cgtimage>ffffffff</cgtimage>  <!-- gridtile image color -->
+	<cgtimageselect>ffffffff</cgtimageselect>  <!-- gridtile image color selected -->
 	
 <!-- grid -->
 	
 	<cgtbg>00000000</cgtbg> <!-- grid tile background color -->	
-	<cgtbgedge>00000000</cgtbgedge>   <!-- background edge color -->
-	<cgtbgedgeselect>10b7dc</cgtbgedgeselect>   <!-- ##	 background edge of selected item # -->
+	<cgtbgedge>00c4ff</cgtbgedge>   <!-- background edge color -->
+	<cgtbgedgeselect>00c4ff</cgtbgedgeselect>   <!-- ##	 background edge of selected item # -->
 	
 <!-- carousel view -->
 	

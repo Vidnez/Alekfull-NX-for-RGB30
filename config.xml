@@ -1,30 +1,47 @@
 <theme>
     <formatVersion>4</formatVersion>
 
-    <include>./lang/en.xml</include>
-	<include lang="eu">./lang/en.xml</include>
-    <include lang="es">./lang/es.xml</include>
-    <include lang="mx">./lang/es.xml</include>
 
-<!--	
-	<include lang="de">./lang/de.xml</include>
--->
-	
-	<include>./options/display/169.xml</include>
-    <include subset="vdelay" name="1" displayName="${delay1}">./options/videodelay/video_delay_1.xml</include>
-    <include subset="vdelay" name="2" displayName="${delay2}">./options/videodelay/video_delay_2.xml</include>
-    <include subset="vdelay" name="3" displayName="${delay3}">./options/videodelay/video_delay_3.xml</include>
-    <include subset="vdelay" name="0" displayName="${delay0}">./options/videodelay/video_delay_0.xml</include>
-    <include subset="vdelay" name="nv" displayName="${novideo}">./options/videodelay/no_video.xml</include>
+    <!--Languages-->
+        <include>./lang/en.xml</include>
+	    <include lang="eu">./lang/en.xml</include>
+        <include lang="es">./lang/es.xml</include>
+        <include lang="mx">./lang/es.xml</include>
+        <include lang="de">./lang/de.xml</include>
+        <include lang="fr">./lang/fr.xml</include>
+        <include lang="ja">./lang/jp_min.xml</include>
+        <include lang="ko">./lang/ko.xml</include>
+        <include lang="pt">./lang/pt.xml</include>
+        <include lang="ru">./lang/ru.xml</include>
+        <include lang="zh">./lang/zh_min.xml</include>
+
+    <!--Systems descriptions in home-->
+
+        <include>./systems/${system.theme}.xml</include>  
+
+    <!--Aspect Ratio-->
+	    
+        <include>./options/display/11.xml</include>
+
+    <!--Image type in Detailed view-->
+
+        <include subset="gamelist art" name="Boxart" displayName="Boxart">./options/gamelist/thumbnail.xml</include>
+        <include subset="gamelist art" name="Screenshot" displayName="Screenshot">./options/gamelist/screenshot.xml</include>
+
+    <!--Video Delay-->
+
+        <include subset="vdelay" name="3" displayName="${delay3}">./options/videodelay/video_delay_3.xml</include>
+        <include subset="vdelay" name="2" displayName="${delay2}">./options/videodelay/video_delay_2.xml</include>
+        <include subset="vdelay" name="1" displayName="${delay1}">./options/videodelay/video_delay_1.xml</include>
+        <include subset="vdelay" name="0" displayName="${delay0}">./options/videodelay/video_delay_0.xml</include>
+        <include subset="vdelay" name="nv" displayName="${novideo}">./options/videodelay/no_video.xml</include>
     
+    <!--Other options-->
 
-    <include>./options/colorschemes/blue.xml</include>
+        <include>./options/colorschemes/blue.xml</include>
+        <include>./options/logosets/color.xml</include>
+	    <include>./${ratset}/horizontal_details.xml</include>
+        <include>./options/background/Alekfull.xml</include>
 
-    <include>./options/logosets/color.xml</include>
-    <include>./options/helpicons/crystal.xml</include>
-	<include>./${ratset}/horizontal_details.xml</include>
-    <include>./options/background/Alekfull.xml</include>
-	<include>./options/syslogos/syslogo_yes.xml</include>
-    <include>./options/syslogos/syslogo_no.xml</include>
 
 </theme>

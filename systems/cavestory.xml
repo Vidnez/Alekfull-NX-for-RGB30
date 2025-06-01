@@ -17,10 +17,10 @@
 
 
 	  <text name="shortdescription" extra="true">
-   <text>year  ·  x-bit Console</text>
+   <text>2004  ·  Metroidvania Game</text>
   </text>
 		<text name="description" extra="true">
-			<text>${supervision}</text>
+			<text>${cavestory}</text>
 		</text>
 		
 	</view>

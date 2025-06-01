@@ -17,10 +17,10 @@
 
 
 	  <text name="shortdescription" extra="true">
-   <text>year  ·  x-bit Console</text>
+   <text>1979  ·  4-bit Handheld</text>
   </text>
 		<text name="description" extra="true">
-			<text>${supervision}</text>
+			<text>${microvision}</text>
 		</text>
 		
 	</view>
